@@ -1,0 +1,270 @@
+/* ------------------------------------------------
+RESET CSS (thanks Eric Meyer)
+------------------------------------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+:focus {
+    outline-width: 0;
+}
+
+html {
+    overflow-y: scroll; /* Always show a vertical scrollbar, even when there is no scrolling */
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* ------------------------------------------------
+ HTML5 Element Reset
+------------------------------------------------ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+    display: block;
+}
+
+audio, canvas, video, progress, picture {
+    display: inline-block;
+}
+
+template {
+    display: none;
+}
+
+/* ------------------------------------------------
+ Form Reset Styles
+------------------------------------------------ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+// --------------------------------------
+//
+//
+//
+//
+//
+//
+// ---------------------------------------
+
+
+// ----------BEGIN PROJECT-------------
+
+$font-stack: 'Fjalla One', sans-serif;
+$logo-font: 'Russo One', sans-serif;
+$body-color:    rgb(253,253,253);
+$main-color:    rgb(179,185,156);
+$navbar:        rgb(39,55,58);
+$highlight-red: rgb(189,53,39);
+$footer:        rgb(34,34,34);
+
+
+
+// -------------------------------
+//
+//
+// -------------------------------
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: $body-color;
+    font: 62.5% $font-stack;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+
+// ------Navigation-------
+
+.navbar {
+    height:60px;
+    background-color: $navbar;
+    box-sizing: border-box;
+    .brand {
+        font: 4em $logo-font;
+        padding: 0px 0 0 10px;
+        float: left;
+    }
+    a:hover, li:hover {
+        color:$main-color;
+    }
+    li {
+        font-size: 2em;
+        background-color: inherit;
+    }
+    ul {
+        padding-top: 5px;
+        background-color: inherit;
+    }
+}
+// ----------------------
+
+// ------HERO--------
+
+
+.hero {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: $main-color;
+    background-image: url("/assets/main-display.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+.hero-content {
+    padding-top: 30px;
+}
+.hero-content h1 {
+    font-size: 6em;
+}
+.hero-content p {
+    font-size: 2.5em;
+    max-width: 1000px;
+
+}
+.button {
+    background-color: $navbar;
+    font-size: 2em;
+}
+.button:hover {
+    color: $main-color;
+}
+}
+
+// ------------------
+// ------Main--------
+.main {
+    height: 600px;
+    width: 100%;
+    background-color: $main-color;
+    padding: 80px 80px;
+
+h1 {
+    font-size: 3em;
+}
+p {
+    font-size: 2em;
+    max-width: 1000px;
+}
+.button {
+    background-color: $navbar;
+    font-size: 2em;
+
+}
+.button:hover {
+    color: $main-color;
+}
+
+}
+
+
+
+
+
+// ------------------
+
+// ------Footer--------
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: $navbar;
+ul {
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+
+}
+
+
+
+// -----------------------------

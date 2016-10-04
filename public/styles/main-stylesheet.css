@@ -1,0 +1,181 @@
+/* ------------------------------------------------
+RESET CSS (thanks Eric Meyer)
+------------------------------------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+:focus {
+  outline-width: 0; }
+
+html {
+  overflow-y: scroll;
+  /* Always show a vertical scrollbar, even when there is no scrolling */ }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* ------------------------------------------------
+ HTML5 Element Reset
+------------------------------------------------ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+audio, canvas, video, progress, picture {
+  display: inline-block; }
+
+template {
+  display: none; }
+
+/* ------------------------------------------------
+ Form Reset Styles
+------------------------------------------------ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none; }
+
+input[type="search"] {
+  -webkit-appearance: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical; }
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 16px; }
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #fdfdfd;
+  font: 62.5% "Fjalla One", sans-serif; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+a:visited {
+  color: inherit; }
+
+.navbar {
+  height: 60px;
+  background-color: #27373a;
+  box-sizing: border-box; }
+  .navbar .brand {
+    font: 4em "Russo One", sans-serif;
+    padding: 0px 0 0 10px;
+    float: left; }
+  .navbar a:hover, .navbar li:hover {
+    color: #b3b99c; }
+  .navbar li {
+    font-size: 2em;
+    background-color: inherit; }
+  .navbar ul {
+    padding-top: 5px;
+    background-color: inherit; }
+
+.hero {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #b3b99c;
+  background-image: url("/assets/main-display.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .hero .hero-content {
+    padding-top: 30px; }
+  .hero .hero-content h1 {
+    font-size: 6em; }
+  .hero .hero-content p {
+    font-size: 2.5em;
+    max-width: 1000px; }
+  .hero .button {
+    background-color: #27373a;
+    font-size: 2em; }
+  .hero .button:hover {
+    color: #b3b99c; }
+
+.main {
+  height: 600px;
+  width: 100%;
+  background-color: #b3b99c;
+  padding: 80px 80px; }
+  .main h1 {
+    font-size: 3em; }
+  .main p {
+    font-size: 2em;
+    max-width: 1000px; }
+  .main .button {
+    background-color: #27373a;
+    font-size: 2em; }
+  .main .button:hover {
+    color: #b3b99c; }
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: #27373a; }
+  footer ul {
+    padding-top: 40px;
+    margin: 0 auto; }
+  footer li {
+    font-size: 1.5em;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=main-stylesheet.css.map */
