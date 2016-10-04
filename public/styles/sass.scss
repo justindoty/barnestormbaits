@@ -218,7 +218,6 @@ a:visited {
 // ------------------
 // ------Main--------
 .main {
-    height: 600px;
     width: 100%;
     background-color: $main-color;
     padding: 80px 80px;
@@ -249,9 +248,10 @@ p {
 
 // ------Footer--------
 footer {
-    height: 300px;
+    
     width: 100%;
     background-color: $navbar;
+    padding: 80px 80px;
 ul {
     padding-top: 40px;
     margin: 0 auto;
